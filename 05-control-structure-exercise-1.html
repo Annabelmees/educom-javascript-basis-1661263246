@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <script>
+      let total = 0
         for(let number = 0; number < 100; number++) {
           console.log(`Loop number: ${number}`);
           if(number % 2 == 0) {
-            const total = 0 + number
+            total += number
             console.log(`Total number: ${total}`);
           } 
         }
